@@ -33,7 +33,8 @@ while running:
             running = False
         if event.type == pygame.MOUSEBUTTONDOWN:
             if event.button == pygame.BUTTON_LEFT:
-                reveal_space(board, mousePos)
+                reveal(board, mousePos)
+
             elif event.button == pygame.BUTTON_RIGHT:
                 flag_space(board, mousePos)
 
